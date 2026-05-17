@@ -1,0 +1,418 @@
+<!-- /* ══════════════════════════════════════════════════════════════════
+Explore Adobe® Firefly™ or a Similar Generative AI Tool
+Introduction to AI 2026
+Designed by Amanda Wilkerson, 2026
+For questions or feedback, contact Amanda at <amanda@rhinicorn.com>
+
+Copyright (C) <2026> <Amanda Wilkerson>
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or 
+  any later version.
+    
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program. If not, see https://www.gnu.org/licenses .
+════════════════════════════════════════════════════════════════════ */ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Explore: Adobe Firefly or Similar Generative AI Tool</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    color: #222;
+    max-width: 7.5in;
+    margin: 0.75in auto;
+    line-height: 1.55;
+    background: #fff;
+  }
+  .course-header {
+    border-bottom: 3px solid #1A4731;
+    padding-bottom: 8px;
+    margin-bottom: 18px;
+  }
+  .course-header p {
+    margin: 2px 0;
+    font-size: 10.5pt;
+    color: #444;
+  }
+  h1.main-title {
+    font-size: 18pt;
+    color: #1A4731;
+    margin-bottom: 4px;
+  }
+  h1.sub-title {
+    margin-top: 0;
+    font-size: 14pt;
+    color: #5B2D8E;
+  }
+  .badge {
+    display: inline-block;
+    background: #EAF3E8;
+    color: #1A4731;
+    font-size: 9pt;
+    font-weight: bold;
+    padding: 2px 10px;
+    border-radius: 12px;
+    margin-bottom: 14px;
+    letter-spacing: 0.3px;
+  }
+  .intro-box {
+    background: #EAF3E8;
+    border-left: 4px solid #1A4731;
+    padding: 12px 16px;
+    margin-bottom: 24px;
+    font-size: 11pt;
+    border-radius: 0 6px 6px 0;
+  }
+  .intro-box p { margin: 6px 0; }
+  h2 {
+    font-size: 13pt;
+    color: #5B2D8E;
+    margin-top: 28px;
+    margin-bottom: 8px;
+  }
+  .step-wrap { margin-bottom: 20px; }
+  .step-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    margin-bottom: 6px;
+  }
+  .step-num {
+    background: #1A4731;
+    color: #fff;
+    font-weight: bold;
+    font-size: 11pt;
+    min-width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .step-title {
+    font-size: 12pt;
+    font-weight: bold;
+    color: #1A4731;
+    line-height: 1.4;
+    padding-top: 4px;
+  }
+  .step-body {
+    margin-left: 44px;
+    font-size: 11pt;
+  }
+  .step-body p { margin: 4px 0 6px 0; }
+  .step-body ul {
+    margin: 6px 0 8px 0;
+    padding-left: 20px;
+  }
+  .step-body li { margin-bottom: 5px; }
+  .screenshot-box {
+    border: 1.5px dashed #5B2D8E;
+    border-radius: 5px;
+    background: #F0E8F8;
+    padding: 20px;
+    text-align: center;
+    color: #5B2D8E;
+    font-size: 10pt;
+    margin: 10px 0 8px 0;
+  }
+  .screenshot-box .icon { font-size: 22pt; display: block; margin-bottom: 4px; }
+  .note-tag {
+    background: #EAF3E8;
+    border: 1px solid #b0d4bc;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 10.5pt;
+    margin: 8px 0;
+    color: #1A4731;
+  }
+  .divider {
+    border: none;
+    border-top: 1px solid #b0d4bc;
+    margin: 22px 0;
+  }
+  table.compare {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 11pt;
+    margin: 10px 0 18px 0;
+  }
+  table.compare th {
+    background: #1A4731;
+    color: #fff;
+    padding: 8px 14px;
+    text-align: left;
+    font-size: 10.5pt;
+  }
+  table.compare td {
+    border: 1px solid #b0d4bc;
+    padding: 8px 14px;
+    vertical-align: top;
+  }
+  table.compare tr:nth-child(even) td { background: #EAF3E8; }
+  .vocab-box {
+    background: #EAF3E8;
+    border: 1px solid #b0d4bc;
+    border-radius: 6px;
+    padding: 14px 18px;
+    margin: 20px 0;
+  }
+  .vocab-box h2 { margin-top: 0; }
+  .vocab-term { font-weight: bold; color: #1A4731; }
+  .vocab-row { margin-bottom: 8px; font-size: 11pt; }
+  .reflect-box {
+    border: 1px solid #b0d4bc;
+    background: #EAF3E8;
+    border-radius: 6px;
+    padding: 14px 18px;
+    margin-top: 28px;
+  }
+  .reflect-box h2 { margin-top: 0; }
+  .reflect-intro {
+    font-size: 11pt;
+    margin: 0 0 14px 0;
+    color: #333;
+  }
+  .question-block { margin-bottom: 20px; }
+  .question-text {
+    font-size: 11pt;
+    margin: 0 0 10px 0;
+    color: #222;
+    line-height: 1.5;
+  }
+  .question-num { font-weight: bold; color: #1A4731; }
+  .reveal-btn {
+    background: #5B2D8E;
+    color: #F0E8F8;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 16px;
+    font-size: 10.5pt;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .reveal-btn:hover { background: #4a2275; }
+  .sample-answer {
+    display: none;
+    background: #F0E8F8;
+    border-left: 4px solid #5B2D8E;
+    border-radius: 0 6px 6px 0;
+    padding: 11px 15px;
+    margin-top: 10px;
+    font-size: 11pt;
+    color: #2a1040;
+    line-height: 1.55;
+  }
+  .sample-answer-label {
+    font-size: 9pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #5B2D8E;
+    margin-bottom: 5px;
+  }
+  .footer {
+    margin-top: 36px;
+    font-size: 9pt;
+    color: #888;
+    text-align: center;
+    border-top: 1px solid #b0d4bc;
+    padding-top: 8px;
+  }
+  .trademark-note {
+    font-size: 9pt;
+    color: #666;
+    margin-top: 4px;
+    font-style: italic;
+  }
+  a { color: #1A4731; }
+</style>
+</head>
+<body>
+
+<div class="course-header">
+  <p><strong>AI Essentials</strong></p>
+  <p>Module 1 &nbsp;|&nbsp; Non-Graded Exploration Activity</p>
+</div>
+
+<h1 class="main-title">Explore: Adobe&#174; Firefly&#8482;</h1>
+<h1 class="sub-title">or a Similar Generative AI Tool</h1>
+<div class="badge">VIEW-ONLY DEMO &nbsp;|&nbsp; NO ACCOUNT REQUIRED &nbsp;|&nbsp; NO SUBMISSION REQUIRED</div>
+
+<div class="intro-box">
+  <p><strong>Why this matters:</strong> Generative AI is one specific type of AI workload. It creates new content (images, text, audio, video) from a prompt. It is very different from a rule-based system that follows fixed instructions, or a predictive model that forecasts outcomes. Recognizing that difference will help you on the Module 1 quiz and in your later prompt-engineering assignments.</p>
+  <p><strong>What to do:</strong> Work through the guided steps below. You do not need to create an account or generate anything yourself. You are observing and analyzing. Use the reflection questions at the end to cement your understanding.</p>
+</div>
+
+<h2>BACKGROUND: WHAT IS GENERATIVE AI?</h2>
+
+<p style="font-size: 11 pt;">Generative AI is an AI system trained on large amounts of existing content (text, images, code, audio) so that it can produce <em>new</em> content that resembles what it learned. It does not look up a stored answer or follow a decision tree. Instead, it generates a response that fits the pattern of the prompt it received.</p>
+
+<table class="compare">
+  <tr>
+    <th>System Type</th>
+    <th>How It Works</th>
+    <th>Example</th>
+  </tr>
+  <tr>
+    <td><strong>Rule-Based</strong></td>
+    <td>Follows a fixed set of "if-then" rules written by a programmer</td>
+    <td>An ATM that dispenses cash only when your PIN matches</td>
+  </tr>
+  <tr>
+    <td><strong>Predictive / ML</strong></td>
+    <td>Learns from historical data to forecast an outcome or classify input</td>
+    <td>A spam filter that scores incoming email as "spam" or "not spam"</td>
+  </tr>
+  <tr>
+    <td><strong>Generative AI</strong></td>
+    <td>Creates new, original content (text, images, etc.) from a prompt</td>
+    <td>Adobe&#174; Firefly&#8482; generating a product photo from a text description</td>
+  </tr>
+</table>
+
+<h2>GUIDED EXPLORATION STEPS</h2>
+
+<div class="step-wrap">
+  <div class="step-header">
+    <div class="step-num">1</div>
+    <div class="step-title">Visit Adobe&#174; Firefly&#8482; (no account needed to browse)</div>
+  </div>
+  <div class="step-body">
+    <p>Open a browser and navigate to <a href="https://firefly.adobe.com" target="_blank">firefly.adobe.com</a>. You will land on the homepage.</p>
+    <div class="note-tag">&#9432; <strong>View-only tip:</strong> You do not need to sign in. Scroll the page to see examples of AI-generated images. Look for the gallery or "See what's possible" section.</div>
+    <div class="screenshot-box">
+      <img src="images/adobefirefly_landing.png" alt="Adobe Firefly Homepage" style="width:100%; border-radius:5px; border:1px solid #b0d4bc; margin:10px 0 8px 0;">
+    </div>
+    <p><strong>Notice:</strong> The interface centers on a text box where you type a prompt. The AI does all the generating. You provide words, and it creates a visual.</p>
+  </div>
+</div>
+
+<hr class="divider">
+
+<div class="step-wrap">
+  <div class="step-header">
+    <div class="step-num">2</div>
+    <div class="step-title">Read a Sample Prompt and Its Output</div>
+  </div>
+  <div class="step-body">
+    <p>Adobe&#174; Firefly&#8482;'s gallery shows example prompts paired with the images they produced. Find one example and read both the prompt and the image result.</p>
+    <ul>
+      <li>What words in the prompt seem to have the strongest effect on what was generated?</li>
+      <li>Would a traditional rule-based program be able to do this? Why or why not?</li>
+    </ul>
+    <div class="screenshot-box">
+      <img src="images/adobefirefly_gallery.png" alt="Adobe Firefly Gallery Page" style="width:100%; border-radius:5px; border:1px solid #b0d4bc; margin:10px 0 8px 0;">
+    </div>
+  </div>
+</div>
+
+<hr class="divider">
+
+<div class="step-wrap">
+  <div class="step-header">
+    <div class="step-num">3</div>
+    <div class="step-title">Explore the Style and Effect Controls</div>
+  </div>
+  <div class="step-body">
+    <p>On the demo page, look for options that let users adjust the style, mood, or artistic format of the output, such as "Photo," "Graphic," "Art," or "Black and white."</p>
+    <ul>
+      <li>These controls show how users can guide the AI through structured choices rather than writing every detail in text.</li>
+      <li>Notice how the same base prompt can produce very different-looking images depending on which style is selected.</li>
+    </ul>
+    <div class="note-tag">&#9432; <strong>If Firefly is unavailable:</strong> You can explore similar tools such as <a href="https://labs.openai.com" target="_blank">DALL-E (OpenAI)</a>, <a href="https://www.canva.com/ai-image-generator/" target="_blank">Canva AI Image Generator</a>, or <a href="https://ideogram.ai" target="_blank">Ideogram.ai</a>. All offer a free-browse or demo mode.</div>
+    <div class="screenshot-box">
+      <img src="images/adobefirefly_gallerystylesprompt.png" alt="Adobe Firefly Gallery Page" style="width:100%; border-radius:5px; border:1px solid #b0d4bc; margin:10px 0 8px 0;">
+    </div>
+  </div>
+</div>
+
+<hr class="divider">
+
+<div class="step-wrap">
+  <div class="step-header">
+    <div class="step-num">4</div>
+    <div class="step-title">Watch the 2-Minute Overview Video (Optional)</div>
+  </div>
+  <div class="step-body">
+    <p>Adobe has published short explainer videos on its website and YouTube channel. Search for <strong>"Adobe Firefly overview"</strong> on YouTube if you would like to see the tool in motion.</p>
+    <ul>
+      <li>Listen for words like <em>generative</em>, <em>prompt</em>, and <em>model</em>. These are vocabulary terms you will use throughout this course.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="vocab-box">
+  <h2>KEY VOCABULARY FOR THIS MODULE</h2>
+  <div class="vocab-row"><span class="vocab-term">Generative AI</span>: AI that produces new content (text, images, audio, code) from a prompt, rather than retrieving stored information.</div>
+  <div class="vocab-row"><span class="vocab-term">Prompt</span>: The instruction or description a user gives to a generative AI system to guide what it creates.</div>
+  <div class="vocab-row"><span class="vocab-term">Foundation Model</span>: A large AI model trained on massive datasets that can be adapted for many tasks; the engine behind tools like Firefly.</div>
+  <div class="vocab-row"><span class="vocab-term">AI Workload</span>: The category of task an AI system is designed to perform (classification, prediction, generation, optimization, etc.).</div>
+  <div class="vocab-row"><span class="vocab-term">Rule-Based System</span>: A traditional software program that makes decisions by following explicit "if-then" logic written by a developer. No learning is involved.</div>
+</div>
+
+<div class="reflect-box">
+  <h2>REFLECTION QUESTIONS</h2>
+  <p class="reflect-intro">Take a moment to think through each question on your own, then click the button to reveal a sample answer and compare your thinking.</p>
+
+  <div class="question-block">
+    <p class="question-text"><span class="question-num">1.</span> In your own words, what is the biggest difference between a generative AI tool like Firefly and a rule-based system like an ATM? Try to explain it as if you were telling a friend who has never heard of AI.</p>
+    <button class="reveal-btn" onclick="toggleAnswer('ans1', this)">Reveal a sample answer</button>
+    <div class="sample-answer" id="ans1">
+      <div class="sample-answer-label">Sample Answer</div>
+      A rule-based system like an ATM only does exactly what it was programmed to do: if you enter the right PIN and have enough funds, it gives you money. It cannot adapt or create anything new. Adobe&#174; Firefly&#8482;, on the other hand, was trained on millions of images and can produce a brand-new picture it has never "seen" before, based on whatever description you give it. It is flexible and creative in a way that a fixed set of rules never could be.
+    </div>
+  </div>
+
+  <div class="question-block">
+    <p class="question-text"><span class="question-num">2.</span> Name one profession or everyday task where you think a generative image tool could be genuinely useful. What problem would it solve?</p>
+    <button class="reveal-btn" onclick="toggleAnswer('ans2', this)">Reveal a sample answer</button>
+    <div class="sample-answer" id="ans2">
+      <div class="sample-answer-label">Sample Answer</div>
+      A small business owner who cannot afford a professional photographer could use a generative image tool to create product photos or social media graphics from text descriptions. This solves the problem of needing high-quality visuals without a design budget or technical skills.
+    </div>
+  </div>
+
+  <div class="question-block">
+    <p class="question-text"><span class="question-num">3.</span> Generative AI sometimes produces outputs that are incorrect, biased, or unexpected. Why do you think that happens, and what could a user do to reduce that risk?</p>
+    <button class="reveal-btn" onclick="toggleAnswer('ans3', this)">Reveal a sample answer</button>
+    <div class="sample-answer" id="ans3">
+      <div class="sample-answer-label">Sample Answer</div>
+      Generative AI learns patterns from its training data, which reflects human-created content that already contains biases and errors. If certain groups or ideas were underrepresented or misrepresented in that data, the AI may reproduce those patterns. A user can reduce the risk by being very specific in their prompts, reviewing outputs critically before using them, and understanding that the AI is not always neutral or accurate.
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  AI Essentials &nbsp;|&nbsp; Module 1 Exploration Activity &nbsp;|&nbsp; Non-Graded
+  <div class="trademark-note">Adobe and Firefly are trademarks of Adobe Inc. Reference to this product is for educational purposes only and does not imply endorsement.</div>
+</div>
+
+<script>
+function toggleAnswer(id, btn) {
+  var el = document.getElementById(id);
+  if (el.style.display === 'block') {
+    el.style.display = 'none';
+    btn.textContent = 'Reveal a sample answer';
+  } else {
+    el.style.display = 'block';
+    btn.textContent = 'Hide sample answer';
+  }
+}
+</script>
+
+</body>
+</html>
